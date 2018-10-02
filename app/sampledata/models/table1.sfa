@@ -1,0 +1,106 @@
+{
+  animations: [
+    {
+      path: 'sampledata/models/table1.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material #15',
+      parameters: [
+        {
+          baseColor: [
+            0.94117700000000004,
+            0.94117700000000004,
+            0.94117700000000004,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          reflectance: 0.5,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'GLASS::Architectural::Plate-Glassa',
+      parameters: [
+        {
+          baseColor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          reflectance: 0.5,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/models/table1.fbx',
+    name: 'table1',
+    recenter: 'root',
+    scale: 0.034536999999999998,
+  },
+  version: '0.52:1',
+}

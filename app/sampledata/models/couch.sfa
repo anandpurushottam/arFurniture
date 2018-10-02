@@ -1,0 +1,72 @@
+{
+  animations: [
+    {
+      path: 'sampledata/models/couch.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Couch',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Couch_diff',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          reflectance: 0.5,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/models/couch.fbx',
+    name: 'couch',
+    recenter: 'root',
+    scale: 0.168597,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\couch.fbm\\Couch_diff.tga',
+      name: 'Couch_diff',
+      pipeline_name: 'couch.fbm\\Couch_diff.tga',
+    },
+  ],
+  version: '0.52:1',
+}
